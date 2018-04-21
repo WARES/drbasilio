@@ -502,12 +502,12 @@ body {
   .header-parallax-image {
     padding-top: 300px;
     padding-bottom: 300px;
-    background: #a6d6e2 url(../img/elements/parallax-bg-1-1.png) no-repeat;
+    background: #a6d6e2 url(../images/elements/parallax-bg-1-1.png) no-repeat;
     background-size: 47% auto;
     background-position: right bottom;
   }
   .header-parallax-image.tour-bg {
-    background: #ededed url(../img/elements/parallax-bg-2-2.png) no-repeat;
+    background: #ededed url(../images/elements/parallax-bg-2-2.png) no-repeat;
   }
 }
 @media screen and (max-width: 767px) {
@@ -1017,7 +1017,7 @@ body {
 .tour-dates {
   display: block;
   width: 100%;
-  background: url(../img/elements/bg-dates.jpg) no-repeat;
+  background: url(../images/elements/bg-dates.jpg) no-repeat;
   background-position: center 50px;
   background-size: cover;
   padding-bottom: 100px;
@@ -1441,7 +1441,7 @@ body {
   display: block;
   width: 100%;
   padding: 200px 0;
-  background: url(../img/elements/bg-2-2.jpg) no-repeat;
+  background: url(../images/elements/parallax-bg-11.jpg) no-repeat;
   background-position: left top;
   background-attachment: fixed;
   background-size: cover;
