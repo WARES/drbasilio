@@ -189,6 +189,7 @@ jQuery(document).ready(function($) {
     $(window).on('scroll', function(){
         var curPos = $(window).scrollTop();
         $('.header-parallax-image').css('background-position', 'right bottom -' + curPos * .8 + 'px');
+        $('.navigation-bar').addClass('scroll-BG');
         //fadePanels(curPos);
     }).scroll();
 
