@@ -24,9 +24,9 @@ jQuery(document).ready(function($) {
         //get: 'tagged',
         //tagName: 'NichifyPerspectives', // place your tage here
         get: 'user',
-        userId: ENV["INSTAGRAM_USER_ID"],
+        userId: 6359921340,
         sortBy: 'most-liked',
-        clientId: ENV["INSTAGRAM_CLIENT_ID"], // place the client id here
+        clientId: 0b15f9f9630546edb41aee333dc5cb28, // place the client id here
         template: '<li><a href="{{link}}" target="_blank"><img class="img-responsive" src="{{image}}" /></a></li>',
         target: 'instragram-footer',
         limit: 6,
@@ -41,9 +41,9 @@ jQuery(document).ready(function($) {
         //get: 'tagged',
         //tagName: 'NichifyPerspectives', // place your tage here
         get: 'user',
-        userId: ENV["INSTAGRAM_USER_ID"],
+        userId: 6359921340,
         sortBy: 'most-liked',
-        clientId: ENV["INSTAGRAM_CLIENT_ID"], // place the client id here
+        clientId: 0b15f9f9630546edb41aee333dc5cb28, // place the client id here
         template: '<li><a href="{{link}}" target="_blank"><img class="img-responsive" src="{{image}}" /></a></li>',
         target: 'instagram-sidebar-widget',
         limit: 8,
