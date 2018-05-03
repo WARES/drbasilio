@@ -26,7 +26,7 @@ jQuery(document).ready(function($) {
         get: 'user',
         userId: 6359921340,
         sortBy: 'most-liked',
-        clientId: '0b15f9f9630546edb41aee333dc5cb28', // place the client id here
+        clientId: '80d74f8aac074c7ca0808c31e61d5a2a', // place the client id here
         accessToken: '80d74f8aac074c7ca0808c31e61d5a2a',
         template: '<li><a href="{{link}}" target="_blank"><img class="img-responsive" src="{{image}}" /></a></li>',
         target: 'instragram-footer',
@@ -44,7 +44,7 @@ jQuery(document).ready(function($) {
         get: 'user',
         userId: '6359921340',
         sortBy: 'most-liked',
-        clientId: '0b15f9f9630546edb41aee333dc5cb28', // place the client id here
+        clientId: '80d74f8aac074c7ca0808c31e61d5a2a', // place the client id here
         accessToken: '80d74f8aac074c7ca0808c31e61d5a2a',
         template: '<li><a href="{{link}}" target="_blank"><img class="img-responsive" src="{{image}}" /></a></li>',
         target: 'instagram-sidebar-widget',
