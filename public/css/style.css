@@ -1272,10 +1272,11 @@ figure.flipimage figcaption {
 }
 figure.flipimage h3{
   text-transform: uppercase;
+  color: #F1BE48;
 }
-figure.flipimage h3 {
-  color: #fff;
-  margin: 0;
+figure.flipimage figcaption h3 {
+  color: #F1BE48;
+  margin-bottom: 2px;
   font-weight: 800;
   text-transform: uppercase;
 }
