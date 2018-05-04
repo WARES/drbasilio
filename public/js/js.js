@@ -16,7 +16,10 @@ jQuery(document).ready(function($) {
 
     // === LightGallery Home ===
     if ($('#gallery').length>0) {
-        $("#gallery").lightGallery();
+        $("#gallery").lightGallery({
+        showThumbByDefault:true,
+        addClass:'showThumbByDefault'
+      });
     }
 
     // === Footer Instagram Photos ===
