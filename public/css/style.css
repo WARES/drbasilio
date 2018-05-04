@@ -2129,6 +2129,9 @@ figure.flipimage.hover figcaption {
   font-weight: 400 !important;
   color: #fff;
 }
+.footer .mc-field-group{
+  display: inline-block;
+}
 .footer .subscribe input[type=email] {
   border: none;
   outline: 0;
@@ -2166,7 +2169,7 @@ figure.flipimage.hover figcaption {
   font-weight: 400;
   font-size: 12px;
   line-height: 40px;
-  color: #fff;
+  color: #F1BE48;
   word-wrap: nowrap;
   overflow: hidden;
   padding-left: 8px;
@@ -2513,5 +2516,5 @@ hr {
   -moz-transition: .2s;
 }
 .footer span {
-  padding: 5px 5px 5px 5px;
+  padding: 0px 5px 0px 5px;
 }
