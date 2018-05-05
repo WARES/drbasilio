@@ -113,7 +113,7 @@ jQuery(document).ready(function($) {
         jQuery('.slider').revolution({
             delay:9000,
             startwidth:1920,
-            startheight:780,
+            startheight:950,
             //
             fullScreenAlignForce:"off",
             autoHeight:"off",
