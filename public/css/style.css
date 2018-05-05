@@ -306,7 +306,7 @@ body {
 }
 .slider-container .slider {
   width: 100%;
-  height: auto;
+  /* height: auto; */
   position: relative;
 }
 .slider-container .slider .caption.title {
@@ -621,7 +621,8 @@ body {
 4.0 - Audio Player
 --------------------------------------------------------------*/
 .new-releases {
-  padding-top: 25px;
+  padding-top: 75px;
+  padding-bottom: 50px;
 }
 .new-releases h4 {
   margin-top: 30px;
@@ -636,399 +637,7 @@ body {
 .new-releases .videos .vimeo-video iframe {
   border: 0;
 }
-.jplayer-home {
-  display: block;
-  position: relative;
-  margin-top: 35px;
-}
-.jplayer-home .jp-jplayer {
-  display: block;
-  position: absolute;
-  z-index: 100;
-  top: 10px;
-  left: 10px;
-}
-.jplayer-home .jp-gui {
-  display: block;
-  position: relative;
-  z-index: 1;
-  width: 100%;
-  padding: 15px 15px 15px 120px;
-  background: #000;
-}
-.jplayer-home .jp-gui #nowPlaying .artist-name {
-  font-family: 'Montserrat';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 12px;
-  line-height: 20px;
-  color: #fff;
-}
-.jplayer-home .jp-gui #nowPlaying .track-name {
-  font-family: 'Montserrat';
-  font-style: normal;
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 20px;
-  color: #fff;
-  text-transform: uppercase;
-}
-.jplayer-home .jp-gui .jp-interface .jp-progress {
-  display: block;
-  position: relative;
-  overflow: hidden;
-  height: 5px;
-  width: 100%;
-  margin-top: 10px;
-  background-color: #000;
-}
-.jplayer-home .jp-gui .jp-interface .jp-progress .jp-seek-bar {
-  background-color: rgba(96, 24, 213, 0.4);
-  width: 0px;
-  height: 100%;
-  cursor: pointer;
-}
-.jplayer-home .jp-gui .jp-interface .jp-progress .jp-seek-bar .jp-play-bar {
-  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#1e5799+0,7db9e8+100 */
-  background: #1e5799;
-  /* Old browsers */
-  background: -moz-linear-gradient(left, #F1BE48 0%, #F1BE48 100%);
-  /* FF3.6+ */
-  background: -webkit-gradient(linear, left top, right top, color-stop(0%, #F1BE48), color-stop(100%, #F1BE48));
-  /* Chrome,Safari4+ */
-  background: -webkit-linear-gradient(left, #F1BE48 0%, #F1BE48 100%);
-  /* Chrome10+,Safari5.1+ */
-  background: -o-linear-gradient(left, #F1BE48 0%, #F1BE48 100%);
-  /* Opera 11.10+ */
-  background: -ms-linear-gradient(left, #F1BE48 0%, #F1BE48 100%);
-  /* IE10+ */
-  background: linear-gradient(to right, #F1BE48 0%, #F1BE48 100%);
-  /* W3C */
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='@base-color', endColorstr='lighten(@base-color, 10%)', GradientType=1);
-  /* IE6-9 */
-  width: 0px;
-  height: 100%;
-}
-.jplayer-home .jp-gui .jp-interface .time {
-  display: block;
-  position: relative;
-  width: 50%;
-  float: left;
-  text-align: left;
-  margin-top: 3px;
-  padding-bottom: 5px;
-}
-.jplayer-home .jp-gui .jp-interface .time.right {
-  text-align: right;
-}
-.jplayer-home .jp-gui .jp-interface .time .jp-current-time,
-.jplayer-home .jp-gui .jp-interface .time .jp-duration {
-  font-family: 'Montserrat';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 12px;
-  line-height: 12px;
-  color: #fff;
-}
-.jplayer-home .jp-gui .jp-interface .jp-controls-holder {
-  display: block;
-  width: 100%;
-}
-.jplayer-home .jp-gui .jp-interface .jp-controls-holder .jp-controls {
-  display: inline-block;
-}
-.jplayer-home .jp-gui .jp-interface .jp-controls-holder .jp-controls button {
-  background: none;
-  border: none;
-  outline: none;
-  color: #666666;
-  font-size: 24px;
-  line-height: 24px;
-  font-weight: 600;
-  -webkit-transition: all 0.2s linear;
-  -moz-transition: all 0.2s linear;
-  -ms-transition: all 0.2s linear;
-  -o-transition: all 0.2s linear;
-  transition: all 0.2s linear;
-}
-.jplayer-home .jp-gui .jp-interface .jp-controls-holder .jp-controls button:hover {
-  color: #F1BE48;
-}
-@media screen and (max-width: 450px) {
-  .jplayer-home .jp-gui .jp-interface .jp-controls-holder .jp-controls button {
-    font-size: 18px;
-    line-height: 24px;
-  }
-}
-.jplayer-home .jp-gui .jp-interface .jp-controls-holder .jp-toggles {
-  display: inline-block;
-  float: right;
-}
-@media screen and (max-width: 450px) {
-  .jplayer-home .jp-gui .jp-interface .jp-controls-holder .jp-toggles {
-    display: none;
-  }
-}
-.jplayer-home .jp-gui .jp-interface .jp-controls-holder .jp-toggles button {
-  background: none;
-  border: none;
-  outline: none;
-  color: #666666;
-  font-size: 24px;
-  line-height: 24px;
-  -webkit-transition: all 0.2s linear;
-  -moz-transition: all 0.2s linear;
-  -ms-transition: all 0.2s linear;
-  -o-transition: all 0.2s linear;
-  transition: all 0.2s linear;
-}
-.jplayer-home .jp-gui .jp-interface .jp-controls-holder .jp-toggles button:hover {
-  color: #F1BE48;
-}
-.jplayer-home .jp-playlist {
-  display: block;
-  position: relative;
-  width: 100%;
-}
-.jplayer-home .jp-playlist ul {
-  margin: 0;
-  padding: 0;
-}
-.jplayer-home .jp-playlist ul li {
-  display: block;
-  background: #fff;
-}
-.jplayer-home .jp-playlist ul li:nth-child(even) {
-  background: #eff3f3;
-}
-.jplayer-home .jp-playlist ul li .info-wrapper a.jp-playlist-item {
-  display: block;
-  position: relative;
-  padding: 20px 15px 20px 60px;
-  text-decoration: none;
-  outline: 0;
-}
-.jplayer-home .jp-playlist ul li .info-wrapper a.jp-playlist-item:before {
-  display: block;
-  position: absolute;
-  font-family: Flaticon;
-  content: '\e012';
-  font-size: 16px;
-  line-height: 16px;
-  color: #b3b3b3;
-  width: 16px;
-  height: 16px;
-  top: 50%;
-  left: 30px;
-  margin-top: -8px;
-  margin-left: -8px;
-  font-weight: 700;
-}
-.jplayer-home .jp-playlist ul li .info-wrapper a.jp-playlist-item .jp-title {
-  font-family: 'Montserrat';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 16px;
-  color: #000;
-}
-.jplayer-home .jp-playlist ul li .info-wrapper a.jp-playlist-item .jp-artist {
-  font-family: 'Montserrat';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 12px;
-  line-height: 16px;
-  color: #545454;
-}
-.jplayer-home .jp-playlist ul li .info-wrapper a.jp-playlist-item span.time {
-  display: inline-block;
-  float: right;
-  font-family: 'Montserrat';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 12px;
-  line-height: 16px;
-  color: #b3b3b3;
-}
-.jplayer-home .jp-playlist ul li.jp-playlist-current a.jp-playlist-item:before {
-  content: '\e00b';
-  color: #F1BE48 !important;
-}
-.jplayer-home.jp-state-playing .jp-play i:before {
-  content: "\e00b" !important;
-}
-.jplayer-home.jp-state-looped .jp-repeat i {
-  color: #F1BE48;
-}
-.jplayer-home.jplayer-track {
-  margin-top: -110px;
-}
-.jplayer-home.jplayer-track.jplayer-single {
-  margin-top: 0;
-}
-.jplayer-home.jplayer-track .jp-jplayer {
-  top: 15px;
-  left: 10px;
-}
-.jplayer-home.jplayer-track .jp-gui {
-  padding: 15px 15px 15px 110px;
-  box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.15);
-  -webkit-box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.15);
-  -moz-box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.15);
-  -o-box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.15);
-}
-.jplayer-home.jplayer-track .jp-gui:after {
-  display: table;
-  content: '';
-  clear: both;
-}
-.jplayer-home.jplayer-track .jp-gui .jp-interface .jp-progress {
-  margin-top: 10px;
-}
-.jplayer-home.jplayer-track .jp-gui .jp-interface .time {
-  margin-top: 5px;
-  padding-bottom: 0;
-}
-.jplayer-home.jplayer-track .jp-gui .jp-interface .time.right {
-  text-align: right;
-}
-.jplayer-home.jplayer-track .jp-gui .jp-interface .jp-controls-holder {
-  display: block;
-  width: 100%;
-}
-.jplayer-home.jplayer-track .jp-gui .jp-interface .jp-controls-holder:after {
-  display: table;
-  content: '';
-  clear: both;
-}
-.jplayer-home.jplayer-track .jp-gui .jp-interface .jp-controls-holder #nowPlaying {
-  display: block;
-  float: left;
-}
-.jplayer-home.jplayer-track .jp-gui .jp-interface .jp-controls-holder #nowPlaying .artist-name {
-  font-size: 12px;
-  line-height: 12px;
-}
-.jplayer-home.jplayer-track .jp-gui .jp-interface .jp-controls-holder #nowPlaying .track-name {
-  font-size: 14px;
-  line-height: 14px;
-}
-.jplayer-home.jplayer-track .jp-gui .jp-interface .jp-controls-holder .jp-controls {
-  display: block;
-  float: left;
-  padding-top: 8px;
-  margin-right: 15px;
-}
-.jplayer-home.jplayer-track .jp-gui .jp-interface .jp-controls-holder .jp-controls button {
-  font-size: 24px;
-  line-height: 24px;
-}
-@media screen and (max-width: 450px) {
-  .jplayer-home.jplayer-track .jp-gui .jp-interface .jp-controls-holder .jp-controls button {
-    font-size: 18px;
-    line-height: 24px;
-  }
-}
-.jplayer-home.jplayer-track .jp-gui .jp-interface .jp-controls-holder .jp-toggles {
-  display: block;
-  padding-top: 8px;
-  float: right;
-}
-@media screen and (max-width: 767px) {
-  .jplayer-home.jplayer-track .jp-gui .jp-interface .jp-controls-holder .jp-toggles {
-    display: none;
-  }
-}
-.jplayer-home.jplayer-track .jp-gui .jp-interface .jp-controls-holder .jp-toggles button {
-  font-size: 24px;
-  line-height: 24px;
-}
-.jplayer-home.jplayer-track.jplayer-single .jp-jplayer {
-  top: 15px;
-  left: 0;
-}
-.jplayer-home.jplayer-track.jplayer-single .jp-gui {
-  padding: 15px 0 15px 95px;
-}
-.track-info-container {
-  padding-bottom: 75px;
-}
-.track-info-container h4 {
-  text-transform: uppercase;
-  margin-top: 30px;
-}
-.track-info-container ul {
-  width: 100%;
-  padding: 0;
-  margin: 0;
-}
-.track-info-container ul li {
-  display: block;
-  width: 100%;
-  padding: 20px 0;
-}
-.track-info-container ul li span {
-  display: block;
-  width: 50%;
-  float: left;
-  font-family: 'Montserrat';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 12px;
-  line-height: 14px;
-  color: #454545;
-}
-.track-info-container p {
-  color: #000;
-  margin-top: 15px;
-}
-.jplayer-home.jplayer-sidebar {
-  margin-top: 30px;
-}
-.jplayer-home.jplayer-sidebar .jp-jplayer {
-  display: none;
-}
-.jplayer-home.jplayer-sidebar .jp-gui {
-  padding: 15px;
-}
-.jplayer-home.jplayer-sidebar .jp-gui #nowPlayingSidebar .artist-name {
-  font-family: 'Montserrat';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 12px;
-  line-height: 20px;
-  color: #fff;
-}
-.jplayer-home.jplayer-sidebar .jp-gui #nowPlayingSidebar .track-name {
-  font-family: 'Montserrat';
-  font-style: normal;
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 20px;
-  color: #fff;
-  text-transform: uppercase;
-}
-@media screen and (max-width: 991px) {
-  .jplayer-home.jplayer-sidebar .jp-gui .jp-interface .jp-controls-holder .jp-toggles {
-    display: none;
-  }
-}
-.jplayer-home.jplayer-sidebar .jp-playlist ul li .info-wrapper a.jp-playlist-item {
-  padding: 20px 15px 20px 40px;
-}
-.jplayer-home.jplayer-sidebar .jp-playlist ul li .info-wrapper a.jp-playlist-item:before {
-  left: 20px;
-}
-.jplayer-home.jplayer-sidebar .jp-playlist ul li .info-wrapper a.jp-playlist-item span.time {
-  display: none;
-}
-.single-player-bar {
-  background: #000;
-  margin-top: 115px;
-}
-.single-player-bar .jp-playlist {
-  display: none !important;
-}
+
 /*--------------------------------------------------------------
 5.0 - Tour Dates
 --------------------------------------------------------------*/
@@ -1044,14 +653,25 @@ body {
   background: none;
 }
 .tour {
-  padding-top: 75px;
+  padding-top: 50px;
+  border-top: 2px solid rgba(89, 86, 100, 0.55);
+  padding-bottom: 50px
 }
 .tour h2 {
   text-transform: uppercase;
+  color: #fff;
 }
 .tour h5 {
   text-transform: uppercase;
   margin-top: 10px;
+  color: #fff;
+}
+.tour .soldout h2{
+  color: #f00;
+  padding-top: 30px;
+}
+.tour .ticket-state h2 {
+    padding-top: 30px;
 }
 .tour p.location {
   font-family: 'Montserrat';
@@ -1571,8 +1191,8 @@ figure.flipimage.hover figcaption {
 .twitter-feed {
   display: block;
   width: 100%;
-  padding: 200px 0;
-  background: url(../images/elements/parallax-bg-11.jpg) no-repeat;
+  padding: 0px 0px 0px 0;
+  background: url(../images/elements/header-parallax-image-6.jpg) no-repeat;
   background-position: left top;
   background-attachment: fixed;
   background-size: cover;
@@ -2423,7 +2043,7 @@ figure.flipimage.hover figcaption {
 }
 .category-head {
   text-align: center;
-  padding-top: 120px;
+  padding-bottom: 50px
 }
 .category-head h4 {
   font-family: 'Montserrat';
@@ -2432,6 +2052,9 @@ figure.flipimage.hover figcaption {
   margin: 0;
   padding: 0;
   text-transform: uppercase;
+}
+.next-gigs {
+  padding-top: 120px;
 }
 .category-head .bars-animation {
   display: inline-block;
